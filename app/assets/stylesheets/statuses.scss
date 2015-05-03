@@ -9,3 +9,15 @@
 .status p {
 	margin: 4px 0px;
 }
+
+.status .admin {
+	display:none;
+}
+
+.status:hover {
+	background: #F0F0F0;
+}
+
+.status:hover .admin {
+	display:inline;
+}
